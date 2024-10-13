@@ -122,8 +122,8 @@ jobs:
         run: |
           node ./script/build_with_pake_cli.js
         env:
-          URL: ${{ inputs.url }}
-          NAME: ${{ inputs.name }}
+          URL: https://uc-fe.yeswood.com/login
+          NAME: yeswood
           ICON: ${{ inputs.icon }}
           HEIGHT: ${{ inputs.height }}
           WIDTH: ${{ inputs.width }}
